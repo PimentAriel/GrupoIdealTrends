@@ -7,48 +7,23 @@ body {
 	padding: 0;
 }
 
-header {
-	height: 120px;
-}
-
 .center {
 	display: flex;
     justify-content: center;
 }
 
 .container {
-    width: 990px;
+    width: 894px;
 }
 
-.topo_color {
-	background-color: #020085;
-	height: 26px;
-	width: 100%;
+.text {
+    padding: 5px;
+    color: #858585;
+    font-size: 13px;
 }
 
-.phone {
-	display: flex;		
-	height: 26px;
-	line-height: 26px;
-	display: flex;
-	flex-direction: row-reverse;
-	padding-right: 10px;
-}
-
-.phone span {
-	padding-left: 20px;
-}
-
-.numbers {
-	color: #FFF;
+.color-image {
+    color: #FFF;
 	font-weight: bold;
-}
-
-.logo img{
-	height: 120px;
-}
-
-.menu {
-	display: flex;
-	align-items: center;
+	font-size: 25px;
 }

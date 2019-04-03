@@ -1,0 +1,25 @@
+.boxes-destaque {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destaque-title {
+    font-size: 20px !important;
+}
+
+.image-box {
+    margin-top: 10px; 
+    width: 196px;
+    height: 163px;
+    background-color: #020085;
+    line-height: 163px;
+    display: flex;
+	justify-content: center;
+}
+
+.destaque-text {
+    margin-top: 5px !important;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 180px;
+ }
