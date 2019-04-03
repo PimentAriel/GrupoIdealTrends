@@ -1,0 +1,38 @@
+* {
+	font-family: Arial;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;		
+	justify-content: center;
+	height: 120px;
+}
+
+.container {
+	width: 990px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.phone {
+	display: flex;
+	flex-direction: row-reverse;
+
+}
+
+.logo img{
+	height: 120px;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
