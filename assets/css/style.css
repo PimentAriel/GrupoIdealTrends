@@ -8,24 +8,40 @@ body {
 }
 
 header {
-	display: flex;		
-	justify-content: center;
 	height: 120px;
 }
 
-.container {
-	width: 990px;
+.center {
+	display: flex;
+    justify-content: center;
 }
 
-.header {
-	display: flex;
-	justify-content: space-between;
+.container {
+    width: 990px;
+}
+
+.topo_color {
+	background-color: #020085;
+	height: 26px;
+	width: 100%;
 }
 
 .phone {
+	display: flex;		
+	height: 26px;
+	line-height: 26px;
 	display: flex;
 	flex-direction: row-reverse;
+	padding-right: 10px;
+}
 
+.phone span {
+	padding-left: 20px;
+}
+
+.numbers {
+	color: #FFF;
+	font-weight: bold;
 }
 
 .logo img{
