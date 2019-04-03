@@ -27,3 +27,64 @@ body {
 	font-weight: bold;
 	font-size: 25px;
 }
+
+@media (max-width: 895px) {
+	
+	.container {
+		width: 700px;
+	}
+
+	.image-box {
+		max-width: 196px;
+		margin: 10px;
+	}
+	.boxes-destaque {
+		justify-content: space-around !important;
+	}
+
+	.destaque-text {
+		padding-left: 15px;
+	}
+}
+
+@media (max-width: 400px) {
+
+	.container {
+		width: 320px;
+	}
+
+	.image-box {
+		max-width: 196px;
+		margin: 10px;
+	}
+
+	.boxes-destaque {
+		justify-content: space-around !important;
+	}
+
+	.body {
+		flex-wrap: wrap;
+	}
+
+	.header {
+		flex-wrap: wrap;
+		justify-content: center !important;
+		
+	}
+
+	header {
+		height: 130px !important;
+	}
+
+	.menu1 ul li a {
+		font-size: 13px !important;
+	}
+
+	.destaque-text {
+		padding-left: 15px;
+	}
+
+	.destaque-title {
+		margin-top: 10px;
+	}
+}
