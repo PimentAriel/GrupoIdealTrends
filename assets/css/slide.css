@@ -6,3 +6,7 @@
 	
 	background-color: #b4b4b4;
 }
+
+.nivo-controlNav {
+	display: none;
+}

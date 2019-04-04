@@ -10,17 +10,17 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/body.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/destaques.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-	<link rel="stylesheet" href="../themes/default/default.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="../nivo-slider.css" type="text/css" media="screen" />
-	
+	<link rel="stylesheet" href="assets/plugin/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="assets/plugin/nivo-slider.css" type="text/css" media="screen" />	
 	<title>Teste Grupo Ideal Trends</title>
+	<meta name="description" content="Teste Grupo Ideal Trends de HTML e CSS para vaga de Front end"/>
 
 </head>
 <body>
 	<div class="center topo_color">
 		<div class="container phone">
-			<span class="numbers"> 11 1234-1234</span>
-			<span class="numbers"> 11 1234-1234</span>
+			<h4 class="numbers"> 11 1234-1234</h4>
+			<h4 class="numbers"> 11 1234-1234</h4>
 		</div>
 	</div>
 	<header>
@@ -71,43 +71,43 @@
 		
 	</header>
 	
-	<section>
+	<section id="slide">
 		<div class="center slide_color">
 			<div class="container slide_show">
-				
-				<div id="slider" class="nivoSlider">
+				<div class="slider-wrapper theme-default">				
+					<div id="slider" class="nivoSlider">
 
-					<img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+						<img src="assets/images/toystory.jpg" data-thumb="images/toystory.jpg" alt="Toystory" />
+						<img src="assets/images/up.jpg" data-thumb="images/up.jpg" alt="Up Altas Aventuras" title="This is an example of a caption" />
+						<img src="assets/images/walle.jpg" data-thumb="images/walle.jpg" alt="Wall-e" data-transition="slideInLeft" />
+						<img src="assets/images/nemo.jpg" data-thumb="images/nemo.jpg" alt="Procurando Nemo" title="#htmlcaption" />
 
-					<img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
-
-					<img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
-
-					<img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
-
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section>
+	<section id="conteudo">
 		<div class="center">
 			<div class="container body">
 				
 				<div class="content">
 
 					<div class="title-content text">
-						<span>TESTE DE HTML E CSS</span>
+						<h1>TESTE DE HTML E CSS</h1>
 					</div>
 
 					<div class="body-content">
-						<span class="body-content-text text"> Quesitos de avaliação</span>
+						<h2 class="body-content-text text"> Quesitos de avaliação:</h2>
 						<div class="body-content-list text">
-							<li>Organização do código (quanto mais limpo melhor);</li>
-							<li>Nível de detalhismo (quanto mais identico melhor);</li>
-							<li>Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto);</li>
+							<ul>
+								<li><h3>Organização do código (quanto mais limpo melhor);</h3></li>
+								<li><h3>Nível de detalhismo (quanto mais identico melhor);</h3></li>
+								<li><h3>Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto);</h3></li>
+							</ul>							
 						</div>
-						<span class="body-content-list text">Obrigado e boa sorte!</span> 
+						<h3 class="body-content-list text">Obrigado e boa sorte!</h3>
 					</div>
 					
 				</div>
@@ -193,18 +193,8 @@
 		</div>
 	</footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/plugin/jquery.nivo.slider.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.nivo.slider.js"></script>
-
-<script type="text/javascript">
-
-	$(window).load(function() {
-
-	$('#slider').nivoSlider();
-
-	});
-
-</script>
 </body>
 </html>
